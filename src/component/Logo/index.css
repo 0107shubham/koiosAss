@@ -1,0 +1,13 @@
+.logo-container {
+  background-color: #191919;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+}

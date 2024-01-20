@@ -1,0 +1,87 @@
+.bg-container-home {
+  height: 802px;
+  flex-shrink: 0;
+  background-color: #191919;
+  border-radius: 1440px;
+  background-size: cover;
+}
+
+.home-background {
+  fill: linear-gradient(
+    180deg,
+    #090909 -6.07%,
+    rgba(255, 255, 255, 0) 79.8%,
+    #1a1a1a 111.98%
+  );
+
+  opacity: 0.65;
+}
+
+.heading-home {
+  color: var(--gray---for-text-300, #d0d5dd);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* H2-quicksand */
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+}
+
+.para-home {
+  background: linear-gradient(
+    92deg,
+    #ffbf00 17.84%,
+    #0d9bbf 52.51%,
+    #fff 87.19%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Allerta Stencil";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 120px */
+  letter-spacing: -6px;
+  text-transform: capitalize;
+  display: flex;
+  width: 950px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-home {
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  color: #ffbf00;
+  display: flex;
+  padding: 20px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  width: 175px;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  background: var(--Grey-10, #1a1a1a);
+}
+
+.home-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}

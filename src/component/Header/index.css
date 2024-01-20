@@ -1,0 +1,76 @@
+.companyname {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  width: 250px;
+  padding-top: 8px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-element {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-right: 10px;
+}
+
+.element-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.elmnt-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-right: 160px;
+}
+
+.bg-container {
+  display: flex;
+  background-color: #191919;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440;
+  height: 80px;
+}
+
+.element-container-contact {
+  display: flex;
+  padding: 8px 16px;
+  margin: auto;
+  padding-left: 25px;
+  padding-top: 10px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Amber-500----Primary, #ffbf00);
+  width: 133px;
+  height: 36px;
+}
+
+.header-element-contact {
+  color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

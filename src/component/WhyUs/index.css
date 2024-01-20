@@ -1,0 +1,106 @@
+.main-card-container {
+  background-color: #191919;
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+
+  height: 100vh;
+}
+
+.card-container {
+  border-radius: 8px;
+  border: 1px solid rgba(202, 255, 51, 0.1);
+  background-image: url("https://res.cloudinary.com/drvjsegeb/image/upload/v1705692026/twinkle_light_d68umu.png");
+
+  background-blend-mode: normal, normal, screen;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  align-self: stretch;
+  width: 280px;
+  height: 328px;
+  margin: 20px;
+}
+
+.bgContainer {
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 1640px;
+  height: 1030px;
+  flex-shrink: 0;
+}
+
+.main-bgContainer {
+  width: 100%;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card-heading {
+  color: var(--Absolute-White, #fff);
+
+  /* H2-quicksand */
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+}
+
+.card-para {
+  color: var(--Grey-70, #b3b3b3);
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 21px */
+}
+
+.card-image {
+  height: 98px;
+  width: 98px;
+}
+
+.why-upperContainer {
+  padding-top: 78px;
+  height: 230px;
+  background: radial-gradient(
+    50.04% 43% at 52.17% 10.33%,
+    rgba(240, 163, 10, 0.2),
+    rgba(25, 25, 25, 1) 70.95%
+  );
+}
+
+.whyus-heading {
+  color: var(--Amber-500----Primary, #ffbf00);
+  text-align: center;
+
+  /* H1 */
+  font-family: "Allerta Stencil";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+  letter-spacing: -0.96px;
+}
+
+.whyus-para {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+
+  /* Body 1 */
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}

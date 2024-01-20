@@ -1,0 +1,168 @@
+.background-container {
+  background-image: url("https://res.cloudinary.com/drvjsegeb/image/upload/v1705751741/Property_1_Variant3_eyarli.jpg");
+  position: relative;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-Text-Container {
+  position: relative;
+  top: 23%;
+}
+
+.svg-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.services-header {
+  color: var(--Amber-500----Primary, #ffbf00);
+  text-align: center;
+  width: 800px;
+
+  /* H1 */
+  font-family: "Allerta Stencil";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 150% */
+  letter-spacing: -0.96px;
+}
+
+.services-paragraph {
+  color: var(--gray---for-text-400, #98a2b3);
+  text-align: center;
+
+  /* Body 1 */
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.service-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+
+  align-self: stretch;
+  width: 591px;
+  height: 344px;
+}
+
+.servicecard-1 {
+  margin: 15px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  padding: 24px 120px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #0d9bbf;
+  background: linear-gradient(
+    267deg,
+    #1c1c1c 0.36%,
+    rgba(28, 28, 28, 0) 100.31%
+  );
+  box-shadow: 0px 0px 15px 5px rgba(13, 155, 191, 0.1);
+}
+
+.servicecard-2 {
+  margin: 15px;
+  display: flex;
+  padding: 24px 120px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid #ffbf00;
+  background: linear-gradient(
+    267deg,
+    #1c1c1c 0.36%,
+    rgba(28, 28, 28, 0) 100.31%
+  );
+}
+
+.service-card-container-text-btn {
+  color: #ffbf00;
+
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Grey-10, #1a1a1a);
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.service-card-container-text-para {
+  color: var(--gray---for-text-300, #d0d5dd);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.service-card-container-text-heading {
+  color: #fff;
+
+  /* XS Header/Semibold */
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+
+.servicecard-text {
+  color: var(--Default-color-White, #fff);
+
+  /* XL - Text/Semibold */
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+.servicecard-image {
+  width: 40px;
+  height: 40px;
+}
+
+.servicecard-text-2 {
+  color: var(--gray---for-text-500, #667085);
+
+  /* XL - Text/Semibold */
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}

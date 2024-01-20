@@ -1,0 +1,93 @@
+.Connection-img {
+  border-radius: 15px;
+  border-bottom: 1.5px solid rgba(255, 191, 0, 0);
+  background: linear-gradient(
+    42deg,
+    #1a1a1a 6.13%,
+    rgba(21, 21, 21, 0) 105.22%
+  );
+  box-shadow: 0px 6px 50px 15px rgba(255, 191, 0, 0);
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.bg-Connection {
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 573px;
+}
+
+.Connection-heading {
+  background: linear-gradient(
+    93deg,
+    #fff 8.57%,
+    rgba(255, 255, 255, 0.75) 95.46%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+  /* XL Header/Semibold */
+  font-family: Quicksand;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+  width: 640px;
+  flex-shrink: 0;
+}
+
+.call-btn {
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Amber-500----Primary, #ffbf00);
+  display: flex;
+  padding: 20px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 20px;
+}
+
+.mail-btn {
+  border-radius: 50px;
+  border: 1px solid #ffbf00;
+  background: var(--Grey-10, #1a1a1a);
+  display: flex;
+  padding: 20px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 20px;
+}
+
+.connection-btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.mail {
+  color: #ffbf00;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.call {
+  color: var(--Woodsmoke----BG-950----bg, #1a1a1a);
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
